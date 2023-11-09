@@ -1,5 +1,5 @@
 let todoList = [
-    { task: "Complet JavaScript Challenges", isCompleted: true },
+    { task: "Complete JavaScript Challenges", isCompleted: true },
 { task: "Save, push to github org for India Cohort, reconcile diff", isCompleted: true },
 { task: "help others complet their challenge if time permits", isCompleted: False }
     ]
@@ -14,4 +14,4 @@ let todoList = [
 let (isLogged) = true 
 
 if (isLogged) {console.log("User is logged in.");
-} else { console.log("User is not logged in.");
+} else { console.log("User is not logged in.");}
