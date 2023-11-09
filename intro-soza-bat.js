@@ -1,4 +1,4 @@
-
+// Write the code that will log the output of 34 added to 71.
 console.log (34 + 71)
 // Write the code that will log the output of 67 subtracted from 123.
 console.log(123-67)
@@ -13,3 +13,10 @@ console.log(33%6)
 // Write the code that will log the length of a string containing your name.
 var name1 ="soza"
 console.log(name1.length)
+// Write the code that will log whether your string includes the letter "e"?
+var example = "munchie"
+console.log(example.includes("e"))
+// Write the code that will log the character at the first index of the string.
+console.log(example.indexOf("n"))
+// Write the code that will log the string in all uppercase letters.
+console.log(example.toUpperCase())
