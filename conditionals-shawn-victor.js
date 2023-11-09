@@ -21,6 +21,7 @@ console.log("LEARN".length === 5 && "Student".length === 5)
 console.log("LEARN".length === 5 || "Student".length === 5)
 
 // - Does `"LEARN"` contain the subset `"RN"`?
+console.log("LEARN".includes(RN))
 // - Does `"LEARN"` contain the subset `"rn"`?
 // - Does `"LEARN"[0]` strictly equal `"l"`?
 // - Modify the code from the previous question to return `true`.
