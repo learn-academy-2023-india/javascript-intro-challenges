@@ -44,3 +44,19 @@ console.log("LEARN".includes("rn"))
 // - Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 // - Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. **HINT**: Check out the [JavaScript typeof operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof).
 // - Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes `!`, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes `!`, then log "That password is strong enough." Log "That is not a valid password." for every other input.
+
+
+
+//Extra Credit
+
+const { exec } = require('child_process');
+
+const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+
+exec(`open "${url}"`, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Error: ${error}`);
+    return;
+  }
+  console.log(`Opening Rick Roll...`);
+});
