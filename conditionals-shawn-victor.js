@@ -27,12 +27,32 @@ console.log("LEARN".includes("RN"))
 console.log("LEARN".includes("rn"))
 
 // - Does `"LEARN"[0]` strictly equal `"l"`?
+console.log("LEARN"[0] === "l")
+
 // - Modify the code from the previous question to return `true`.
+console.log("LEARN"[0] !== "l")
 
 // Write a conditional statement for the following prompts. Make sure you try different options and change the variables to ensure properly working code.
 
 // - Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
+var myFood = 99
+
+if(myFood <=100){
+    console.log("in budget")
+}
+
 // - Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
+var hungry = 50
+
+if(hungry < 50){
+    console.log("Youre hungry")
+}
+
+else {
+    console.log("keep coding")
+}
+
+
 // - Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 // - Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
 // - Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
@@ -49,14 +69,14 @@ console.log("LEARN".includes("rn"))
 
 //Extra Credit
 
-const { exec } = require('child_process');
+// const { exec } = require('child_process');
 
-const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+// const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
-exec(`open "${url}"`, (error, stdout, stderr) => {
-  if (error) {
-    console.error(`Error: ${error}`);
-    return;
-  }
-  console.log(`Opening Rick Roll...`);
-});
+// exec(`open "${url}"`, (error, stdout, stderr) => {
+//   if (error) {
+//     console.error(`Error: ${error}`);
+//     return;
+//   }
+//   console.log(`Opening Rick Roll...`);
+// });
