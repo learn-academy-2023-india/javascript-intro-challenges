@@ -39,7 +39,11 @@ console.log(theQuestion[2])
 // Write the code that will log the index of the second comma in the theQuestion.
 console.log(theQuestion.indexOf(","))
 // Write the code that will log the concatenation of the two variables.
+
 // Write the code that will log the character "l" from theQuestion.
+
 // Write the code that will extract "the universe" from theQuestion.
+
 // Write the code that will extract "everything" from theQuestion.
+
 // Write the code that will log the last character of theQuestion without manually counting the number of characters.
