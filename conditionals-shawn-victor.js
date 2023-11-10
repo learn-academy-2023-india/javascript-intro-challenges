@@ -35,10 +35,14 @@ console.log("LEARN"[0] !== "l")
 // Write a conditional statement for the following prompts. Make sure you try different options and change the variables to ensure properly working code.
 
 // - Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
-var myFood = 99
+
+var myFood = 101
 
 if(myFood <=100){
     console.log("in budget")
+}
+else if(myFood >= 101){
+    console.log("Too broke")
 }
 
 // - Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
@@ -47,13 +51,29 @@ var hungry = 50
 if(hungry < 50){
     console.log("Youre hungry")
 }
-
 else {
     console.log("keep coding")
 }
 
 
 // - Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
+var trafficLight = 9
+
+if(trafficLight === "green"){
+    console.log("Go")
+}
+if(trafficLight === "yellow"){
+    console.log("slow down")
+}
+if(trafficLight === "red"){
+    console.log("Stop")
+}
+else{
+    console.log("Somethings wrong")
+}
+
+
+
 // - Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
 // - Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
