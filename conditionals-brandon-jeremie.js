@@ -93,10 +93,16 @@ else {
 
 
 
-var apple
-    console.log(typeof(apple))
-
-
+const test = 12;
+if (typeof test === 'boolean')
+   console.log('boolean!');
+else if (typeof test === 'number')
+    console.log('number!')
+else if (typeof test === 'string')
+    console.log('string!')
+else{
+    console.log('undefined')
+}
 
 
 // Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, 
