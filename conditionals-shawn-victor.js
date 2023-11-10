@@ -57,7 +57,7 @@ else {
 
 
 // - Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
-var trafficLight = 9
+var trafficLight = "green"
 
 if(trafficLight === "green"){
     console.log("Go")
@@ -89,14 +89,14 @@ else{
 
 //Extra Credit
 
-// const { exec } = require('child_process');
+const { exec } = require('child_process');
 
-// const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
-// exec(`open "${url}"`, (error, stdout, stderr) => {
-//   if (error) {
-//     console.error(`Error: ${error}`);
-//     return;
-//   }
-//   console.log(`Opening Rick Roll...`);
-// });
+exec(`open "${url}"`, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Error: ${error}`);
+    return;
+  }
+  console.log(`Opening Rick Roll...`);
+});
