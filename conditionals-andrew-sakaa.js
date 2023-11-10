@@ -1,5 +1,3 @@
-// Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt.
-
 // Write the code that will log true or false for the following:
 
 // Is 34 divided by 3 greater than 67 divided by 2?
