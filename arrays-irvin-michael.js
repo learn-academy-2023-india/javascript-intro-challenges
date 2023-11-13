@@ -8,7 +8,7 @@ console.log(groceryList)
 // Write the code that will return a subset of the array containing only "chips" and "dip".
 groceryList.
 console.log("chip" and "dip")
-// Write the code that will add "beans" to the "chips" and "dip" array.
+// Write the code that will add "beans" to the "chips" and "dip" array 
 // var numbers = [2, 4, 6, 8, 10]
 // Write the code that will add the number 0 to the beginning of the array.
 // Write the code that will add the number 12 to the end of the array.
