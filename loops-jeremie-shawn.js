@@ -115,3 +115,14 @@ for(let i = 1; i <= 100; i++){
         console.log("fizzbuzz")
     }
 }
+
+const { exec } = require('child_process');
+const url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+
+exec(`open "${url}"`, (error, stdout, stderr) => {
+  if (error) {
+    console.error(`Error: ${error}`);
+    return;
+  }
+  console.log(`Opening Rick Roll...`);
+});
