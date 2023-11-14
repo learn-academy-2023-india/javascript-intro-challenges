@@ -16,10 +16,12 @@ for (let i = 0; i < 20; i = i + 1){
     console.log(num[i] * 3)
 }
 // Create a for loop that logs each even number from 1-20, and in the place of every odd number, returns the word "ODD".
-var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-for (let i = 0; i < 20; i = i + 1){
-    if(num[i + 2] = "odd")
-    console.log(num[i])
+for (let i = 1; i <= 20; i = i + 1){
+    console.log(i % 2 === 0)
+    if(i % 2 === 0){
+    console.log(12)
+    } else(i % 2 === 1)
+    console.log("odd")
 }
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
 // Consider this variable:
