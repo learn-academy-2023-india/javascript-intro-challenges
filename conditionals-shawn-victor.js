@@ -57,20 +57,22 @@ else {
 
 
 // - Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
-var trafficLight = "green"
+var trafficLight = "yellow"
 
 if(trafficLight === "green"){
     console.log("Go")
 }
-if(trafficLight === "yellow"){
+else if(trafficLight === "yellow"){
     console.log("slow down")
 }
-if(trafficLight === "red"){
+else if(trafficLight === "red"){
     console.log("Stop")
 }
 else{
     console.log("Somethings wrong")
 }
+
+
 
 
 
@@ -100,3 +102,5 @@ exec(`open "${url}"`, (error, stdout, stderr) => {
   }
   console.log(`Opening Rick Roll...`);
 });
+
+
