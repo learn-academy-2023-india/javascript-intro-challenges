@@ -20,8 +20,12 @@ console.log(groceryList.concat("granola"))
 // Write the code that will return a subset of the array containing only "chips" and "dip".
 
 console.log(groceryList.slice(0, 1))
+// output: ["chips", "dip"]
+
 
 // Write the code that will add "beans" to the "chips" and "dip" array.
+
+
 // Consider the variable:
 
 // var numbers = [2, 4, 6, 8, 10]
