@@ -39,42 +39,30 @@
 // }
 // console.log(divisibleBy (15,7))
 //Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
-const assignGrade = (grade) => {
-    if (grade >= 90) {
-        return "A"
-    }
-    else if (grade >= 80) {
-        return "B"
-    }
-    else if (grade >= 70) {
-        return "C"
-    }
-    else if (grade >= 60) {
-        return "D"
-    }
-    else if (grade >= 50) {
-        return "F"
-    }
-}
-console.log(assignGrade (70))
-
-// if (gradePercentage === 100) {
-//     console.log("Perfect score");
-// } else if (gradePercentage >= 90) {
-//     console.log("A");
-// } else if (gradePercentage >= 80) {
-//     console.log("B");
-// } else if (gradePercentage >= 70) {
-//     console.log("C");
-// } else if (gradePercentage >= 60) {
-//     console.log("D");
-// } else if (gradePercentage > 0) {
-//     console.log("F");
-// } else {
-//     console.log("No grade available");
+// const assignGrade = (grade) => {
+//     if (grade >= 90) {
+//         return "A"
+//     }
+//     else if (grade >= 80) {
+//         return "B"
+//     }
+//     else if (grade >= 70) {
+//         return "C"
+//     }
+//     else if (grade >= 60) {
+//         return "D"
+//     }
+//     else if (grade >= 50) {
+//         return "F"
+//     }
+// }
+// console.log(assignGrade (70))
 
 //Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+const isLonger = (most1, most2) => {
+    if
 
+}
 //Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
 //Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
