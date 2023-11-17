@@ -82,7 +82,17 @@ function isLonger(string1, string2) {
     }
 }
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
-
+function greaterNum(num1, num2) {
+//if num1 is less than num2, return num1
+if (num1 > num2) {
+    return num1
+}  
+// all other output, return num1 
+else {
+    return num2
+}
+}
+ 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 
 // 🏔 Stretch Goals
