@@ -84,9 +84,39 @@
 
 // Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // Have your function default to returning English.
+// const helloWorld = (languageCode) => {
+//     const greetings = {
+//       'en': 'Hello World!',
+//       'es': '¡Hola Mundo!',
+//       'de': 'Hallo Welt!',
+//       'fr': 'Bonjour le monde!',
+//       'it': 'Ciao Mondo!'
+//     }
+//     return greetings[languageCode] || 'Hello World!'
+//   }
+//   console.log(helloWorld('es'))
+
 // The Pluralizer
 
 // Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+const pluralizer = (num, noun) => {
+    const collectiveNouns = {
+        "sheep": "sheep",
+        "goose": "geese",
+        "child": "children",
+        "person": "people",
+        "species": "species",
+    }
+      if(collectiveNouns.hasOwnProperty(noun)) {
+        const pluralizedNoun = collectiveNouns[noun]
+        const singularNoun = noun
+        return `${num} ${num === 1 ? singularNoun : pluralizedNoun}`
+    } else {
+        const pluralizedNoun = noun + (num === 1 ? '' : 's')
+        return `${num} ${pluralizedNoun}`
+    }
+}
+console.log(pluralizer(1, "people"))
 // Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
 // pluralizer(5, "cat")
 // // output: "5 cats"
